@@ -24,9 +24,31 @@ A war game written in python, it uses a lot of python tools, through the actual 
 
  1. 对前面章节中的代码进行模块化和打包。
  2. 准备并部署一个代码的发行版版本。
+	 1. 在PyPI上发布包
+		 Python包索引（PyPI）(https://pypi.python.org/pypi)是一个Python社区的包发布机制。默认情况下，Python软件管理器和pip都搜索这个库进行包的安装。
+	 2.  发行版本准备
+		 1. 设置包路径。
+		 2. 编写setup.py文件。
+		 3. 更新README和LICENSE.txt文件。
+		 4. 更新MANIFEST.in文件。
+		 5. 构建一个部署就绪版本。
+	 3. 上传发行版本
+		 1. 在PyPI上测试网站上注册账号。
+		 2. 创建一个.pypirc文件。
+		 3. 注册你的项目。
+		 4. 上传包。
+	4. 一键更新
+	5. 安装自己的发行版本代码
  3. 建议一个私有的Python仓库。
+	 1. 安装pypiserver
+	 2. 创建一个新的源代码发行版本
+	 3. 启动本地服务
+	 4. 安装私有发行版。
  4. 制作增量发布。
+	 1. 打包上传新的版本。
+	 2. 升级已经安装的版本。
  5. 将你的代码接入版本控制工具。
+	 1. 安装并使用Git。 
 
 ### 4、 Part Four
 第四部分的主要目的是将代码文档化并且进行代码分析。
