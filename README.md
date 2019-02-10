@@ -28,7 +28,7 @@ A war game written in python, it uses a lot of python tools, through the actual 
  1. 对前面章节中的代码进行模块化和打包。
  2. 准备并部署一个代码的发行版版本。
 	 1. 在PyPI上发布包
-		 Python包索引（PyPI）(https://pypi.python.org/pypi)是一个Python社区的包发布机制。默认情况下，Python软件管理器和pip都搜索这个库进行包的安装。
+		 Python包索引（PyPI）(https://pypi.python.org/pypi) 是一个Python社区的包发布机制。默认情况下，Python软件管理器和pip都搜索这个库进行包的安装。
 	 2.  发行版本准备
 		 1. 设置包路径。
 			1. 在目录下创建README、LICENSE.txt、MANIFEST.in和setup.py文件。
