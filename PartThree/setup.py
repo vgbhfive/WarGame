@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-with open('README')  as file:
+with open('README') as file:
     readme = file.read()
 
 setup(

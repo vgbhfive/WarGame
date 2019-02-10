@@ -6,7 +6,6 @@ from wargame.hut import Hut
 from wargame.knight import Knight
 from wargame.orcrider import OrcRider
 
-
 # 游戏类
 class AttackOfTheOrcs:
     def __init__(self):
